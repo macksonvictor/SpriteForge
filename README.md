@@ -2,8 +2,6 @@
   <img src="assets/brand/logo_spriteforge.png" alt="SpriteForge" width="720">
 </p>
 
-# SpriteForge
-
 # SpriteForge v0.7 Asset Families + Real Variations + Packs
 
 SpriteForge e um gerador gratuito de assets em pixel art para jogos 2D.
