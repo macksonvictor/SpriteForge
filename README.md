@@ -1,132 +1,45 @@
+ cd "C:\END0-SYM\project\spriteforge project"
+
+@'
 <p align="center">
   <img src="assets/brand/logo_spriteforge.png" alt="SpriteForge" width="720">
 </p>
 
-# SpriteForge v0.7 Asset Families + Real Variations + Packs
+# SpriteForge
 
-SpriteForge e um gerador gratuito de assets em pixel art para jogos 2D.
+SpriteForge is an experimental, free pixel-art asset generator for 2D games.
 
-Ele recebe prompts como:
+The goal is to let people write an idea and generate useful game assets such as:
 
-```bash
-python main.py "sapo ninja com espada de fogo, 6 frames, 32x32"
-```
+- PNG frames
+- spritesheets
+- animated GIF previews
+- metadata JSON
+- future Godot/Unity export packs
 
-E exporta frames PNG, spritesheet PNG, GIF preview e metadata JSON na pasta:
+## Current status
 
-```text
-outputs
-```
+SpriteForge is still an early prototype.
 
-## Novidade da v0.7
+It already has:
 
-A v0.7 usa um planejamento interno mais rico para gerar assets por familias:
+- Python asset generation
+- a local Studio interface
+- procedural pixel-art experiments
+- prompt-based generation
+- exported frames, spritesheets and GIF previews
 
-- criaturas
-- itens
-- efeitos
-- cenarios
+The quality is not final yet. The next major direction is to build a universal drawing engine.
 
-Mesmo quando nao existe um gerador especifico, o SpriteForge escolhe uma familia, um template base, acessorios e elementos para criar uma aproximacao visual consistente.
+## Next major step
 
-Agora tambem existem variacoes reais com `seed` e `variant_id`. Um prompt como:
+### SpriteForge v0.9 — Prompt to PixelScript Engine
 
-```bash
-python main.py "sapo ninja com espada de fogo, 6 frames, 32x32, variacao 2"
-```
-
-gera um asset com sufixo de variacao, por exemplo:
+The next architecture should be:
 
 ```text
-sapo_idle_32x32_6frames_v002
-```
-
-## Packs
-
-A v0.7 tambem cria packs simples de personagem/criatura:
-
-```bash
-python main.py "pack sapo ninja com espada de fogo, 32x32"
-```
-
-O pack gera animacoes em:
-
-```text
-outputs/packs/sapo_ninja_fire_sword/idle
-outputs/packs/sapo_ninja_fire_sword/walk
-outputs/packs/sapo_ninja_fire_sword/jump
-outputs/packs/sapo_ninja_fire_sword/attack
-```
-
-## Abrir o Studio
-
-O Studio e uma interface local simples com Tkinter.
-
-Para abrir:
-
-```bash
-python studio.py
-```
-
-No Windows, tambem da para clicar em:
-
-```text
-run_studio.bat
-```
-
-## Como usar o Studio
-
-1. Escreva um prompt ou clique em um exemplo pronto.
-2. Clique em **Gerar Asset**.
-3. Veja o nome do asset, generator, fallback, output, metadata e caminho do GIF.
-4. Use **Abrir GIF** para ver a preview gerada.
-5. Use **Abrir ultimo asset** para abrir a pasta do asset gerado.
-6. Use **Abrir pasta de outputs** para abrir a pasta geral `outputs`.
-
-O Studio tambem mostra um historico simples da sessao. Ao clicar em um item do historico, o prompt usado volta para a caixa de texto e os botoes passam a abrir aquele asset.
-
-Prompts sem gerador especifico usam fallback generico, como `generic.creature`, `generic.effect`, `generic.item` ou `generic.background`.
-
-Use **Gerar variação** para criar uma variante visual sem sobrescrever o asset anterior. Use **Gerar pack** para criar um pack simples com idle, walk, jump e attack.
-
-## Rodar pelo terminal
-
-```bash
-python main.py "sapo ninja com espada de fogo, 6 frames, 32x32"
-```
-
-Outros exemplos:
-
-```bash
-python main.py "capivara de armadura andando, 8 frames, 32x32"
-python main.py "monstro de pedra com olhos vermelhos, 6 frames, 32x32"
-python main.py "portal dimensional roxo girando, 8 frames, 64x64"
-python main.py "floresta escura para jogo plataforma, 1 frame, 96x48"
-```
-
-## Geradores especificos mantidos
-
-```bash
-python main.py "robo correndo, 8 frames, 32x32, azul neon"
-python main.py "slime verde pulando, 6 frames, 32x32"
-python main.py "espada magica brilhando, 4 frames, 32x32, azul"
-python main.py "estrela piscando, 5 frames, 16x16"
-python main.py "explosao de fogo, 8 frames, 48x48"
-```
-
-## Testes manuais
-
-```bash
-python examples\run_all.py
-python examples\test_quality_v04.py
-python examples\test_universal_v06.py
-python examples\test_v07_assets_and_packs.py
-```
-
-## Logs
-
-Pedidos realmente desconhecidos sao registrados em:
-
-```text
-spriteforge/logs/unknown_requests.jsonl
-```
+Prompt
+→ Visual Plan
+→ PixelScript
+→ Renderer
+→ Game-ready asset
