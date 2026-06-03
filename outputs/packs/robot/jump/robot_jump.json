@@ -1,0 +1,42 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "pack robo correndo, 8 frames, 32x32, azul neon",
+    "category": "character",
+    "asset_family": "creature",
+    "subject": "robot",
+    "body_type": "humanoid",
+    "base_template": "humanoid",
+    "action": "jump",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "generator": "generic.creature",
+    "fallback": true,
+    "seed": 280305825873128,
+    "variant_id": null,
+    "quality_notes": "Generated with generic creature fallback. Subject detected as robot using humanoid template.",
+    "animation_style": "jump_arc",
+    "frames": 6,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "blue",
+        "cyan"
+    ],
+    "palette_key": "blue_neon",
+    "name": "robot_jump",
+    "frame_files": [
+        "outputs\\packs\\robot\\jump\\frames\\frame_01.png",
+        "outputs\\packs\\robot\\jump\\frames\\frame_02.png",
+        "outputs\\packs\\robot\\jump\\frames\\frame_03.png",
+        "outputs\\packs\\robot\\jump\\frames\\frame_04.png",
+        "outputs\\packs\\robot\\jump\\frames\\frame_05.png",
+        "outputs\\packs\\robot\\jump\\frames\\frame_06.png"
+    ],
+    "spritesheet": "outputs\\packs\\robot\\jump\\robot_jump_spritesheet.png",
+    "preview_gif": "outputs\\packs\\robot\\jump\\robot_jump_preview.gif",
+    "pack_name": "robot",
+    "animation": "jump"
+}

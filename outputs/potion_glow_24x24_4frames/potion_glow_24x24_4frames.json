@@ -1,0 +1,39 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "pocao magica brilhando, 4 frames, 24x24",
+    "category": "item",
+    "asset_family": "item",
+    "subject": "potion",
+    "body_type": "item",
+    "base_template": "potion",
+    "action": "glow",
+    "features": [],
+    "accessories": [],
+    "element": "magic",
+    "generator": "generic.item",
+    "fallback": true,
+    "seed": 56952450038808,
+    "variant_id": null,
+    "quality_notes": "Generated with generic item fallback. Subject detected as potion using potion template with element magic.",
+    "animation_style": "glow_pulse",
+    "frames": 4,
+    "size": [
+        24,
+        24
+    ],
+    "palette": [
+        "purple",
+        "blue",
+        "cyan"
+    ],
+    "palette_key": "blue_neon",
+    "name": "potion_glow_24x24_4frames",
+    "frame_files": [
+        "outputs\\potion_glow_24x24_4frames\\frames\\frame_01.png",
+        "outputs\\potion_glow_24x24_4frames\\frames\\frame_02.png",
+        "outputs\\potion_glow_24x24_4frames\\frames\\frame_03.png",
+        "outputs\\potion_glow_24x24_4frames\\frames\\frame_04.png"
+    ],
+    "spritesheet": "outputs\\potion_glow_24x24_4frames\\potion_glow_24x24_4frames_spritesheet.png",
+    "preview_gif": "outputs\\potion_glow_24x24_4frames\\potion_glow_24x24_4frames_preview.gif"
+}

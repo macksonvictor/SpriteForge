@@ -1,0 +1,43 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "pack slime verde pulando, 6 frames, 32x32",
+    "category": "character",
+    "asset_family": "creature",
+    "subject": "slime",
+    "body_type": "blob",
+    "base_template": "blob",
+    "action": "walk",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "generator": "generic.creature",
+    "fallback": true,
+    "seed": 171536290737473,
+    "variant_id": null,
+    "quality_notes": "Generated with generic creature fallback. Subject detected as slime using blob template.",
+    "animation_style": "walk_cycle",
+    "frames": 8,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "green"
+    ],
+    "palette_key": "green_neon",
+    "name": "slime_walk",
+    "frame_files": [
+        "outputs\\packs\\slime\\walk\\frames\\frame_01.png",
+        "outputs\\packs\\slime\\walk\\frames\\frame_02.png",
+        "outputs\\packs\\slime\\walk\\frames\\frame_03.png",
+        "outputs\\packs\\slime\\walk\\frames\\frame_04.png",
+        "outputs\\packs\\slime\\walk\\frames\\frame_05.png",
+        "outputs\\packs\\slime\\walk\\frames\\frame_06.png",
+        "outputs\\packs\\slime\\walk\\frames\\frame_07.png",
+        "outputs\\packs\\slime\\walk\\frames\\frame_08.png"
+    ],
+    "spritesheet": "outputs\\packs\\slime\\walk\\slime_walk_spritesheet.png",
+    "preview_gif": "outputs\\packs\\slime\\walk\\slime_walk_preview.gif",
+    "pack_name": "slime",
+    "animation": "walk"
+}

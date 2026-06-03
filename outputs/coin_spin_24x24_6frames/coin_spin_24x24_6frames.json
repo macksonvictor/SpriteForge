@@ -1,0 +1,41 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "moeda girando, 6 frames, 24x24",
+    "category": "item",
+    "asset_family": "item",
+    "subject": "coin",
+    "body_type": "item",
+    "base_template": "coin",
+    "action": "spin",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "generator": "generic.item",
+    "fallback": true,
+    "seed": 69183868951773,
+    "variant_id": null,
+    "quality_notes": "Generated with generic item fallback. Subject detected as coin using coin template.",
+    "animation_style": "spin",
+    "frames": 6,
+    "size": [
+        24,
+        24
+    ],
+    "palette": [
+        "gold",
+        "blue",
+        "cyan"
+    ],
+    "palette_key": "blue_neon",
+    "name": "coin_spin_24x24_6frames",
+    "frame_files": [
+        "outputs\\coin_spin_24x24_6frames\\frames\\frame_01.png",
+        "outputs\\coin_spin_24x24_6frames\\frames\\frame_02.png",
+        "outputs\\coin_spin_24x24_6frames\\frames\\frame_03.png",
+        "outputs\\coin_spin_24x24_6frames\\frames\\frame_04.png",
+        "outputs\\coin_spin_24x24_6frames\\frames\\frame_05.png",
+        "outputs\\coin_spin_24x24_6frames\\frames\\frame_06.png"
+    ],
+    "spritesheet": "outputs\\coin_spin_24x24_6frames\\coin_spin_24x24_6frames_spritesheet.png",
+    "preview_gif": "outputs\\coin_spin_24x24_6frames\\coin_spin_24x24_6frames_preview.gif"
+}

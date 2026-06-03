@@ -1,0 +1,42 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "robo correndo, 8 frames, 32x32, azul neon",
+    "category": "character",
+    "asset_family": "creature",
+    "subject": "robot",
+    "body_type": "humanoid",
+    "base_template": "humanoid",
+    "action": "run",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "generator": "specific.robot_run",
+    "fallback": false,
+    "seed": 280305825873125,
+    "variant_id": null,
+    "quality_notes": "Generated with specific robot_run generator. Subject detected as robot using humanoid template.",
+    "animation_style": "run_cycle",
+    "frames": 8,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "blue",
+        "cyan"
+    ],
+    "palette_key": "blue_neon",
+    "name": "robot_run_32x32_8frames",
+    "frame_files": [
+        "outputs\\robot_run_32x32_8frames\\frames\\frame_01.png",
+        "outputs\\robot_run_32x32_8frames\\frames\\frame_02.png",
+        "outputs\\robot_run_32x32_8frames\\frames\\frame_03.png",
+        "outputs\\robot_run_32x32_8frames\\frames\\frame_04.png",
+        "outputs\\robot_run_32x32_8frames\\frames\\frame_05.png",
+        "outputs\\robot_run_32x32_8frames\\frames\\frame_06.png",
+        "outputs\\robot_run_32x32_8frames\\frames\\frame_07.png",
+        "outputs\\robot_run_32x32_8frames\\frames\\frame_08.png"
+    ],
+    "spritesheet": "outputs\\robot_run_32x32_8frames\\robot_run_32x32_8frames_spritesheet.png",
+    "preview_gif": "outputs\\robot_run_32x32_8frames\\robot_run_32x32_8frames_preview.gif"
+}

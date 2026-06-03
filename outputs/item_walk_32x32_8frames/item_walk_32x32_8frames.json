@@ -1,0 +1,31 @@
+{
+    "spriteforge_version": "0.3",
+    "prompt": "capivara de armadura andando, 8 frames, 32x32",
+    "category": "item",
+    "subject": "item",
+    "action": "walk",
+    "features": [
+        "armor"
+    ],
+    "frames": 8,
+    "size": [
+        32,
+        32
+    ],
+    "palette": "blue_neon",
+    "name": "item_walk_32x32_8frames",
+    "generator": "generic.item",
+    "fallback": true,
+    "frame_files": [
+        "outputs\\item_walk_32x32_8frames\\frames\\frame_01.png",
+        "outputs\\item_walk_32x32_8frames\\frames\\frame_02.png",
+        "outputs\\item_walk_32x32_8frames\\frames\\frame_03.png",
+        "outputs\\item_walk_32x32_8frames\\frames\\frame_04.png",
+        "outputs\\item_walk_32x32_8frames\\frames\\frame_05.png",
+        "outputs\\item_walk_32x32_8frames\\frames\\frame_06.png",
+        "outputs\\item_walk_32x32_8frames\\frames\\frame_07.png",
+        "outputs\\item_walk_32x32_8frames\\frames\\frame_08.png"
+    ],
+    "spritesheet": "outputs\\item_walk_32x32_8frames\\item_walk_32x32_8frames_spritesheet.png",
+    "preview_gif": "outputs\\item_walk_32x32_8frames\\item_walk_32x32_8frames_preview.gif"
+}

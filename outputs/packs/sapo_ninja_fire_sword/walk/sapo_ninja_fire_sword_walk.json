@@ -1,0 +1,50 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "pack sapo ninja com espada de fogo, 32x32",
+    "category": "creature",
+    "asset_family": "creature",
+    "subject": "sapo",
+    "body_type": "frog",
+    "base_template": "frog",
+    "action": "walk",
+    "features": [
+        "ninja"
+    ],
+    "accessories": [
+        "sword"
+    ],
+    "element": "fire",
+    "generator": "generic.creature",
+    "fallback": true,
+    "seed": 155976717436863,
+    "variant_id": null,
+    "quality_notes": "Generated with generic creature fallback. Subject detected as sapo using frog template with features ninja; accessories sword; element fire.",
+    "animation_style": "walk_cycle",
+    "frames": 8,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "green",
+        "black",
+        "orange",
+        "red"
+    ],
+    "palette_key": "green_neon",
+    "name": "sapo_ninja_fire_sword_walk",
+    "frame_files": [
+        "outputs\\packs\\sapo_ninja_fire_sword\\walk\\frames\\frame_01.png",
+        "outputs\\packs\\sapo_ninja_fire_sword\\walk\\frames\\frame_02.png",
+        "outputs\\packs\\sapo_ninja_fire_sword\\walk\\frames\\frame_03.png",
+        "outputs\\packs\\sapo_ninja_fire_sword\\walk\\frames\\frame_04.png",
+        "outputs\\packs\\sapo_ninja_fire_sword\\walk\\frames\\frame_05.png",
+        "outputs\\packs\\sapo_ninja_fire_sword\\walk\\frames\\frame_06.png",
+        "outputs\\packs\\sapo_ninja_fire_sword\\walk\\frames\\frame_07.png",
+        "outputs\\packs\\sapo_ninja_fire_sword\\walk\\frames\\frame_08.png"
+    ],
+    "spritesheet": "outputs\\packs\\sapo_ninja_fire_sword\\walk\\sapo_ninja_fire_sword_walk_spritesheet.png",
+    "preview_gif": "outputs\\packs\\sapo_ninja_fire_sword\\walk\\sapo_ninja_fire_sword_walk_preview.gif",
+    "pack_name": "sapo_ninja_fire_sword",
+    "animation": "walk"
+}

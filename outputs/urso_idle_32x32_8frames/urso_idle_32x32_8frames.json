@@ -1,0 +1,47 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "urso guerreiro com espada, 8 frames, 32x32",
+    "category": "creature",
+    "asset_family": "creature",
+    "subject": "urso",
+    "body_type": "bear",
+    "base_template": "bear",
+    "action": "idle",
+    "features": [
+        "warrior"
+    ],
+    "accessories": [
+        "sword"
+    ],
+    "element": "none",
+    "generator": "generic.creature",
+    "fallback": true,
+    "seed": 61147071783387,
+    "variant_id": null,
+    "quality_notes": "Generated with generic creature fallback. Subject detected as urso using bear template with features warrior; accessories sword.",
+    "animation_style": "idle_bob",
+    "frames": 8,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "brown",
+        "blue",
+        "cyan"
+    ],
+    "palette_key": "blue_neon",
+    "name": "urso_idle_32x32_8frames",
+    "frame_files": [
+        "outputs\\urso_idle_32x32_8frames\\frames\\frame_01.png",
+        "outputs\\urso_idle_32x32_8frames\\frames\\frame_02.png",
+        "outputs\\urso_idle_32x32_8frames\\frames\\frame_03.png",
+        "outputs\\urso_idle_32x32_8frames\\frames\\frame_04.png",
+        "outputs\\urso_idle_32x32_8frames\\frames\\frame_05.png",
+        "outputs\\urso_idle_32x32_8frames\\frames\\frame_06.png",
+        "outputs\\urso_idle_32x32_8frames\\frames\\frame_07.png",
+        "outputs\\urso_idle_32x32_8frames\\frames\\frame_08.png"
+    ],
+    "spritesheet": "outputs\\urso_idle_32x32_8frames\\urso_idle_32x32_8frames_spritesheet.png",
+    "preview_gif": "outputs\\urso_idle_32x32_8frames\\urso_idle_32x32_8frames_preview.gif"
+}

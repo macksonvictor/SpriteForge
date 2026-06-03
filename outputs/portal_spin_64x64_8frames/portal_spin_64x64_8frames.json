@@ -1,0 +1,41 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "portal dimensional roxo girando, 8 frames, 64x64",
+    "category": "effect",
+    "asset_family": "effect",
+    "subject": "portal",
+    "body_type": "effect",
+    "base_template": "portal",
+    "action": "spin",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "generator": "generic.effect",
+    "fallback": true,
+    "seed": 260460365108737,
+    "variant_id": null,
+    "quality_notes": "Generated with generic effect fallback. Subject detected as portal using portal template.",
+    "animation_style": "spin",
+    "frames": 8,
+    "size": [
+        64,
+        64
+    ],
+    "palette": [
+        "purple"
+    ],
+    "palette_key": "purple_neon",
+    "name": "portal_spin_64x64_8frames",
+    "frame_files": [
+        "outputs\\portal_spin_64x64_8frames\\frames\\frame_01.png",
+        "outputs\\portal_spin_64x64_8frames\\frames\\frame_02.png",
+        "outputs\\portal_spin_64x64_8frames\\frames\\frame_03.png",
+        "outputs\\portal_spin_64x64_8frames\\frames\\frame_04.png",
+        "outputs\\portal_spin_64x64_8frames\\frames\\frame_05.png",
+        "outputs\\portal_spin_64x64_8frames\\frames\\frame_06.png",
+        "outputs\\portal_spin_64x64_8frames\\frames\\frame_07.png",
+        "outputs\\portal_spin_64x64_8frames\\frames\\frame_08.png"
+    ],
+    "spritesheet": "outputs\\portal_spin_64x64_8frames\\portal_spin_64x64_8frames_spritesheet.png",
+    "preview_gif": "outputs\\portal_spin_64x64_8frames\\portal_spin_64x64_8frames_preview.gif"
+}

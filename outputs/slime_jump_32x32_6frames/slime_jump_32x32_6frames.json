@@ -1,0 +1,39 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "slime verde pulando, 6 frames, 32x32",
+    "category": "character",
+    "asset_family": "creature",
+    "subject": "slime",
+    "body_type": "blob",
+    "base_template": "blob",
+    "action": "jump",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "generator": "specific.slime_jump",
+    "fallback": false,
+    "seed": 171536290737471,
+    "variant_id": null,
+    "quality_notes": "Generated with specific slime_jump generator. Subject detected as slime using blob template.",
+    "animation_style": "jump_arc",
+    "frames": 6,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "green"
+    ],
+    "palette_key": "green_neon",
+    "name": "slime_jump_32x32_6frames",
+    "frame_files": [
+        "outputs\\slime_jump_32x32_6frames\\frames\\frame_01.png",
+        "outputs\\slime_jump_32x32_6frames\\frames\\frame_02.png",
+        "outputs\\slime_jump_32x32_6frames\\frames\\frame_03.png",
+        "outputs\\slime_jump_32x32_6frames\\frames\\frame_04.png",
+        "outputs\\slime_jump_32x32_6frames\\frames\\frame_05.png",
+        "outputs\\slime_jump_32x32_6frames\\frames\\frame_06.png"
+    ],
+    "spritesheet": "outputs\\slime_jump_32x32_6frames\\slime_jump_32x32_6frames_spritesheet.png",
+    "preview_gif": "outputs\\slime_jump_32x32_6frames\\slime_jump_32x32_6frames_preview.gif"
+}

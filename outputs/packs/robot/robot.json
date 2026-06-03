@@ -1,0 +1,54 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "pack robo correndo, 8 frames, 32x32, azul neon",
+    "pack_name": "robot",
+    "category": "character",
+    "asset_family": "creature",
+    "subject": "robot",
+    "body_type": "humanoid",
+    "base_template": "humanoid",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "seed": 280305825873125,
+    "variant_id": null,
+    "animations": [
+        {
+            "animation": "idle",
+            "asset": "robot_idle",
+            "generator": "generic.creature",
+            "output_dir": "outputs\\packs\\robot\\idle",
+            "spritesheet": "outputs\\packs\\robot\\idle\\robot_idle_spritesheet.png",
+            "preview_gif": "outputs\\packs\\robot\\idle\\robot_idle_preview.gif",
+            "metadata": "outputs\\packs\\robot\\idle\\robot_idle.json"
+        },
+        {
+            "animation": "walk",
+            "asset": "robot_walk",
+            "generator": "generic.creature",
+            "output_dir": "outputs\\packs\\robot\\walk",
+            "spritesheet": "outputs\\packs\\robot\\walk\\robot_walk_spritesheet.png",
+            "preview_gif": "outputs\\packs\\robot\\walk\\robot_walk_preview.gif",
+            "metadata": "outputs\\packs\\robot\\walk\\robot_walk.json"
+        },
+        {
+            "animation": "jump",
+            "asset": "robot_jump",
+            "generator": "generic.creature",
+            "output_dir": "outputs\\packs\\robot\\jump",
+            "spritesheet": "outputs\\packs\\robot\\jump\\robot_jump_spritesheet.png",
+            "preview_gif": "outputs\\packs\\robot\\jump\\robot_jump_preview.gif",
+            "metadata": "outputs\\packs\\robot\\jump\\robot_jump.json"
+        },
+        {
+            "animation": "attack",
+            "asset": "robot_attack",
+            "generator": "generic.creature",
+            "output_dir": "outputs\\packs\\robot\\attack",
+            "spritesheet": "outputs\\packs\\robot\\attack\\robot_attack_spritesheet.png",
+            "preview_gif": "outputs\\packs\\robot\\attack\\robot_attack_preview.gif",
+            "metadata": "outputs\\packs\\robot\\attack\\robot_attack.json"
+        }
+    ],
+    "quality_notes": "Generated character pack using humanoid template with 4 animations."
+}

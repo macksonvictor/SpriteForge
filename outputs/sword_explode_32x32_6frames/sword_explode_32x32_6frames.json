@@ -1,0 +1,31 @@
+{
+    "spriteforge_version": "0.3",
+    "prompt": "sapo ninja com espada de fogo, 6 frames, 32x32",
+    "category": "item",
+    "subject": "sword",
+    "action": "explode",
+    "features": [
+        "ninja",
+        "fire",
+        "sword"
+    ],
+    "frames": 6,
+    "size": [
+        32,
+        32
+    ],
+    "palette": "green_neon",
+    "name": "sword_explode_32x32_6frames",
+    "generator": "generic.item",
+    "fallback": true,
+    "frame_files": [
+        "outputs\\sword_explode_32x32_6frames\\frames\\frame_01.png",
+        "outputs\\sword_explode_32x32_6frames\\frames\\frame_02.png",
+        "outputs\\sword_explode_32x32_6frames\\frames\\frame_03.png",
+        "outputs\\sword_explode_32x32_6frames\\frames\\frame_04.png",
+        "outputs\\sword_explode_32x32_6frames\\frames\\frame_05.png",
+        "outputs\\sword_explode_32x32_6frames\\frames\\frame_06.png"
+    ],
+    "spritesheet": "outputs\\sword_explode_32x32_6frames\\sword_explode_32x32_6frames_spritesheet.png",
+    "preview_gif": "outputs\\sword_explode_32x32_6frames\\sword_explode_32x32_6frames_preview.gif"
+}

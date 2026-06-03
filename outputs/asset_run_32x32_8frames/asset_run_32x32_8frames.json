@@ -1,0 +1,42 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "sabo correndo, 8 frames, 32x32",
+    "category": "unknown",
+    "asset_family": "unknown",
+    "subject": "asset",
+    "body_type": "humanoid",
+    "base_template": "unknown",
+    "action": "run",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "generator": "generic.creature",
+    "fallback": true,
+    "seed": 185113783450487,
+    "variant_id": null,
+    "quality_notes": "Generated with generic creature fallback. Subject/category could not be identified confidently.",
+    "animation_style": "run_cycle",
+    "frames": 8,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "blue",
+        "cyan"
+    ],
+    "palette_key": "blue_neon",
+    "name": "asset_run_32x32_8frames",
+    "frame_files": [
+        "outputs\\asset_run_32x32_8frames\\frames\\frame_01.png",
+        "outputs\\asset_run_32x32_8frames\\frames\\frame_02.png",
+        "outputs\\asset_run_32x32_8frames\\frames\\frame_03.png",
+        "outputs\\asset_run_32x32_8frames\\frames\\frame_04.png",
+        "outputs\\asset_run_32x32_8frames\\frames\\frame_05.png",
+        "outputs\\asset_run_32x32_8frames\\frames\\frame_06.png",
+        "outputs\\asset_run_32x32_8frames\\frames\\frame_07.png",
+        "outputs\\asset_run_32x32_8frames\\frames\\frame_08.png"
+    ],
+    "spritesheet": "outputs\\asset_run_32x32_8frames\\asset_run_32x32_8frames_spritesheet.png",
+    "preview_gif": "outputs\\asset_run_32x32_8frames\\asset_run_32x32_8frames_preview.gif"
+}

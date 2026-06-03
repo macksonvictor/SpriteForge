@@ -1,0 +1,48 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "dragao voando com fogo, 8 frames, 64x64",
+    "category": "creature",
+    "asset_family": "creature",
+    "subject": "dragao",
+    "body_type": "winged",
+    "base_template": "winged",
+    "action": "fly",
+    "features": [],
+    "accessories": [
+        "wings",
+        "horns",
+        "tail"
+    ],
+    "element": "fire",
+    "generator": "generic.creature",
+    "fallback": true,
+    "seed": 74833139897944,
+    "variant_id": null,
+    "quality_notes": "Generated with generic creature fallback. Subject detected as dragao using winged template with accessories wings, horns, tail; element fire.",
+    "animation_style": "fly_flap",
+    "frames": 8,
+    "size": [
+        64,
+        64
+    ],
+    "palette": [
+        "green",
+        "orange",
+        "red",
+        "yellow"
+    ],
+    "palette_key": "fire",
+    "name": "dragao_fly_64x64_8frames",
+    "frame_files": [
+        "outputs\\dragao_fly_64x64_8frames\\frames\\frame_01.png",
+        "outputs\\dragao_fly_64x64_8frames\\frames\\frame_02.png",
+        "outputs\\dragao_fly_64x64_8frames\\frames\\frame_03.png",
+        "outputs\\dragao_fly_64x64_8frames\\frames\\frame_04.png",
+        "outputs\\dragao_fly_64x64_8frames\\frames\\frame_05.png",
+        "outputs\\dragao_fly_64x64_8frames\\frames\\frame_06.png",
+        "outputs\\dragao_fly_64x64_8frames\\frames\\frame_07.png",
+        "outputs\\dragao_fly_64x64_8frames\\frames\\frame_08.png"
+    ],
+    "spritesheet": "outputs\\dragao_fly_64x64_8frames\\dragao_fly_64x64_8frames_spritesheet.png",
+    "preview_gif": "outputs\\dragao_fly_64x64_8frames\\dragao_fly_64x64_8frames_preview.gif"
+}

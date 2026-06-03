@@ -1,0 +1,58 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "pack sapo ninja com espada de fogo, 32x32",
+    "pack_name": "sapo_ninja_fire_sword",
+    "category": "creature",
+    "asset_family": "creature",
+    "subject": "sapo",
+    "body_type": "frog",
+    "base_template": "frog",
+    "features": [
+        "ninja"
+    ],
+    "accessories": [
+        "sword"
+    ],
+    "element": "fire",
+    "seed": 155976717436861,
+    "variant_id": null,
+    "animations": [
+        {
+            "animation": "idle",
+            "asset": "sapo_ninja_fire_sword_idle",
+            "generator": "generic.creature",
+            "output_dir": "outputs\\packs\\sapo_ninja_fire_sword\\idle",
+            "spritesheet": "outputs\\packs\\sapo_ninja_fire_sword\\idle\\sapo_ninja_fire_sword_idle_spritesheet.png",
+            "preview_gif": "outputs\\packs\\sapo_ninja_fire_sword\\idle\\sapo_ninja_fire_sword_idle_preview.gif",
+            "metadata": "outputs\\packs\\sapo_ninja_fire_sword\\idle\\sapo_ninja_fire_sword_idle.json"
+        },
+        {
+            "animation": "walk",
+            "asset": "sapo_ninja_fire_sword_walk",
+            "generator": "generic.creature",
+            "output_dir": "outputs\\packs\\sapo_ninja_fire_sword\\walk",
+            "spritesheet": "outputs\\packs\\sapo_ninja_fire_sword\\walk\\sapo_ninja_fire_sword_walk_spritesheet.png",
+            "preview_gif": "outputs\\packs\\sapo_ninja_fire_sword\\walk\\sapo_ninja_fire_sword_walk_preview.gif",
+            "metadata": "outputs\\packs\\sapo_ninja_fire_sword\\walk\\sapo_ninja_fire_sword_walk.json"
+        },
+        {
+            "animation": "jump",
+            "asset": "sapo_ninja_fire_sword_jump",
+            "generator": "generic.creature",
+            "output_dir": "outputs\\packs\\sapo_ninja_fire_sword\\jump",
+            "spritesheet": "outputs\\packs\\sapo_ninja_fire_sword\\jump\\sapo_ninja_fire_sword_jump_spritesheet.png",
+            "preview_gif": "outputs\\packs\\sapo_ninja_fire_sword\\jump\\sapo_ninja_fire_sword_jump_preview.gif",
+            "metadata": "outputs\\packs\\sapo_ninja_fire_sword\\jump\\sapo_ninja_fire_sword_jump.json"
+        },
+        {
+            "animation": "attack",
+            "asset": "sapo_ninja_fire_sword_attack",
+            "generator": "generic.creature",
+            "output_dir": "outputs\\packs\\sapo_ninja_fire_sword\\attack",
+            "spritesheet": "outputs\\packs\\sapo_ninja_fire_sword\\attack\\sapo_ninja_fire_sword_attack_spritesheet.png",
+            "preview_gif": "outputs\\packs\\sapo_ninja_fire_sword\\attack\\sapo_ninja_fire_sword_attack_preview.gif",
+            "metadata": "outputs\\packs\\sapo_ninja_fire_sword\\attack\\sapo_ninja_fire_sword_attack.json"
+        }
+    ],
+    "quality_notes": "Generated character pack using frog template with 4 animations."
+}

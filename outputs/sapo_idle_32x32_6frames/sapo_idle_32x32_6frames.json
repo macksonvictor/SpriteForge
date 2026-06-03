@@ -1,0 +1,46 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "sapo ninja com espada de fogo, 6 frames, 32x32",
+    "category": "creature",
+    "asset_family": "creature",
+    "subject": "sapo",
+    "body_type": "frog",
+    "base_template": "frog",
+    "action": "idle",
+    "features": [
+        "ninja"
+    ],
+    "accessories": [
+        "sword"
+    ],
+    "element": "fire",
+    "generator": "generic.creature",
+    "fallback": true,
+    "seed": 259031985038215,
+    "variant_id": null,
+    "quality_notes": "Generated with generic creature fallback. Subject detected as sapo using frog template with features ninja; accessories sword; element fire.",
+    "animation_style": "idle_bob",
+    "frames": 6,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "green",
+        "black",
+        "orange",
+        "red"
+    ],
+    "palette_key": "green_neon",
+    "name": "sapo_idle_32x32_6frames",
+    "frame_files": [
+        "outputs\\sapo_idle_32x32_6frames\\frames\\frame_01.png",
+        "outputs\\sapo_idle_32x32_6frames\\frames\\frame_02.png",
+        "outputs\\sapo_idle_32x32_6frames\\frames\\frame_03.png",
+        "outputs\\sapo_idle_32x32_6frames\\frames\\frame_04.png",
+        "outputs\\sapo_idle_32x32_6frames\\frames\\frame_05.png",
+        "outputs\\sapo_idle_32x32_6frames\\frames\\frame_06.png"
+    ],
+    "spritesheet": "outputs\\sapo_idle_32x32_6frames\\sapo_idle_32x32_6frames_spritesheet.png",
+    "preview_gif": "outputs\\sapo_idle_32x32_6frames\\sapo_idle_32x32_6frames_preview.gif"
+}

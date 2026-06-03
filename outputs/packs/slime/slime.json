@@ -1,0 +1,54 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "pack slime verde pulando, 6 frames, 32x32",
+    "pack_name": "slime",
+    "category": "character",
+    "asset_family": "creature",
+    "subject": "slime",
+    "body_type": "blob",
+    "base_template": "blob",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "seed": 171536290737471,
+    "variant_id": null,
+    "animations": [
+        {
+            "animation": "idle",
+            "asset": "slime_idle",
+            "generator": "generic.creature",
+            "output_dir": "outputs\\packs\\slime\\idle",
+            "spritesheet": "outputs\\packs\\slime\\idle\\slime_idle_spritesheet.png",
+            "preview_gif": "outputs\\packs\\slime\\idle\\slime_idle_preview.gif",
+            "metadata": "outputs\\packs\\slime\\idle\\slime_idle.json"
+        },
+        {
+            "animation": "walk",
+            "asset": "slime_walk",
+            "generator": "generic.creature",
+            "output_dir": "outputs\\packs\\slime\\walk",
+            "spritesheet": "outputs\\packs\\slime\\walk\\slime_walk_spritesheet.png",
+            "preview_gif": "outputs\\packs\\slime\\walk\\slime_walk_preview.gif",
+            "metadata": "outputs\\packs\\slime\\walk\\slime_walk.json"
+        },
+        {
+            "animation": "jump",
+            "asset": "slime_jump",
+            "generator": "specific.slime_jump",
+            "output_dir": "outputs\\packs\\slime\\jump",
+            "spritesheet": "outputs\\packs\\slime\\jump\\slime_jump_spritesheet.png",
+            "preview_gif": "outputs\\packs\\slime\\jump\\slime_jump_preview.gif",
+            "metadata": "outputs\\packs\\slime\\jump\\slime_jump.json"
+        },
+        {
+            "animation": "attack",
+            "asset": "slime_attack",
+            "generator": "generic.creature",
+            "output_dir": "outputs\\packs\\slime\\attack",
+            "spritesheet": "outputs\\packs\\slime\\attack\\slime_attack_spritesheet.png",
+            "preview_gif": "outputs\\packs\\slime\\attack\\slime_attack_preview.gif",
+            "metadata": "outputs\\packs\\slime\\attack\\slime_attack.json"
+        }
+    ],
+    "quality_notes": "Generated character pack using blob template with 4 animations."
+}

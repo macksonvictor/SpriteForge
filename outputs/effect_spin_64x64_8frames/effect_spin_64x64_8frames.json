@@ -1,0 +1,29 @@
+{
+    "spriteforge_version": "0.3",
+    "prompt": "portal dimensional roxo girando, 8 frames, 64x64",
+    "category": "effect",
+    "subject": "effect",
+    "action": "spin",
+    "features": [],
+    "frames": 8,
+    "size": [
+        64,
+        64
+    ],
+    "palette": "purple_neon",
+    "name": "effect_spin_64x64_8frames",
+    "generator": "generic.effect",
+    "fallback": true,
+    "frame_files": [
+        "outputs\\effect_spin_64x64_8frames\\frames\\frame_01.png",
+        "outputs\\effect_spin_64x64_8frames\\frames\\frame_02.png",
+        "outputs\\effect_spin_64x64_8frames\\frames\\frame_03.png",
+        "outputs\\effect_spin_64x64_8frames\\frames\\frame_04.png",
+        "outputs\\effect_spin_64x64_8frames\\frames\\frame_05.png",
+        "outputs\\effect_spin_64x64_8frames\\frames\\frame_06.png",
+        "outputs\\effect_spin_64x64_8frames\\frames\\frame_07.png",
+        "outputs\\effect_spin_64x64_8frames\\frames\\frame_08.png"
+    ],
+    "spritesheet": "outputs\\effect_spin_64x64_8frames\\effect_spin_64x64_8frames_spritesheet.png",
+    "preview_gif": "outputs\\effect_spin_64x64_8frames\\effect_spin_64x64_8frames_preview.gif"
+}

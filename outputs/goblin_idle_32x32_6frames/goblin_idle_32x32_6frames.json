@@ -1,0 +1,43 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "goblin com faca, 6 frames, 32x32",
+    "category": "creature",
+    "asset_family": "creature",
+    "subject": "goblin",
+    "body_type": "monster",
+    "base_template": "monster",
+    "action": "idle",
+    "features": [],
+    "accessories": [
+        "knife"
+    ],
+    "element": "none",
+    "generator": "generic.creature",
+    "fallback": true,
+    "seed": 24779577216490,
+    "variant_id": null,
+    "quality_notes": "Generated with generic creature fallback. Subject detected as goblin using monster template with accessories knife.",
+    "animation_style": "idle_bob",
+    "frames": 6,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "green",
+        "blue",
+        "cyan"
+    ],
+    "palette_key": "blue_neon",
+    "name": "goblin_idle_32x32_6frames",
+    "frame_files": [
+        "outputs\\goblin_idle_32x32_6frames\\frames\\frame_01.png",
+        "outputs\\goblin_idle_32x32_6frames\\frames\\frame_02.png",
+        "outputs\\goblin_idle_32x32_6frames\\frames\\frame_03.png",
+        "outputs\\goblin_idle_32x32_6frames\\frames\\frame_04.png",
+        "outputs\\goblin_idle_32x32_6frames\\frames\\frame_05.png",
+        "outputs\\goblin_idle_32x32_6frames\\frames\\frame_06.png"
+    ],
+    "spritesheet": "outputs\\goblin_idle_32x32_6frames\\goblin_idle_32x32_6frames_spritesheet.png",
+    "preview_gif": "outputs\\goblin_idle_32x32_6frames\\goblin_idle_32x32_6frames_preview.gif"
+}

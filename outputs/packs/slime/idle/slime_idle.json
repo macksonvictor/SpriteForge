@@ -1,0 +1,39 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "pack slime verde pulando, 6 frames, 32x32",
+    "category": "character",
+    "asset_family": "creature",
+    "subject": "slime",
+    "body_type": "blob",
+    "base_template": "blob",
+    "action": "idle",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "generator": "generic.creature",
+    "fallback": true,
+    "seed": 171536290737472,
+    "variant_id": null,
+    "quality_notes": "Generated with generic creature fallback. Subject detected as slime using blob template.",
+    "animation_style": "idle_bob",
+    "frames": 4,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "green"
+    ],
+    "palette_key": "green_neon",
+    "name": "slime_idle",
+    "frame_files": [
+        "outputs\\packs\\slime\\idle\\frames\\frame_01.png",
+        "outputs\\packs\\slime\\idle\\frames\\frame_02.png",
+        "outputs\\packs\\slime\\idle\\frames\\frame_03.png",
+        "outputs\\packs\\slime\\idle\\frames\\frame_04.png"
+    ],
+    "spritesheet": "outputs\\packs\\slime\\idle\\slime_idle_spritesheet.png",
+    "preview_gif": "outputs\\packs\\slime\\idle\\slime_idle_preview.gif",
+    "pack_name": "slime",
+    "animation": "idle"
+}

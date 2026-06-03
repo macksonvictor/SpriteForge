@@ -1,0 +1,46 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "capivara de armadura andando, 8 frames, 32x32",
+    "category": "creature",
+    "asset_family": "creature",
+    "subject": "capivara",
+    "body_type": "quadruped",
+    "base_template": "quadruped",
+    "action": "walk",
+    "features": [],
+    "accessories": [
+        "armor_plate"
+    ],
+    "element": "none",
+    "generator": "generic.creature",
+    "fallback": true,
+    "seed": 76730473455343,
+    "variant_id": null,
+    "quality_notes": "Generated with generic creature fallback. Subject detected as capivara using quadruped template with accessories armor_plate.",
+    "animation_style": "walk_cycle",
+    "frames": 8,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "brown",
+        "blue",
+        "cyan",
+        "silver"
+    ],
+    "palette_key": "blue_neon",
+    "name": "capivara_walk_32x32_8frames",
+    "frame_files": [
+        "outputs\\capivara_walk_32x32_8frames\\frames\\frame_01.png",
+        "outputs\\capivara_walk_32x32_8frames\\frames\\frame_02.png",
+        "outputs\\capivara_walk_32x32_8frames\\frames\\frame_03.png",
+        "outputs\\capivara_walk_32x32_8frames\\frames\\frame_04.png",
+        "outputs\\capivara_walk_32x32_8frames\\frames\\frame_05.png",
+        "outputs\\capivara_walk_32x32_8frames\\frames\\frame_06.png",
+        "outputs\\capivara_walk_32x32_8frames\\frames\\frame_07.png",
+        "outputs\\capivara_walk_32x32_8frames\\frames\\frame_08.png"
+    ],
+    "spritesheet": "outputs\\capivara_walk_32x32_8frames\\capivara_walk_32x32_8frames_spritesheet.png",
+    "preview_gif": "outputs\\capivara_walk_32x32_8frames\\capivara_walk_32x32_8frames_preview.gif"
+}

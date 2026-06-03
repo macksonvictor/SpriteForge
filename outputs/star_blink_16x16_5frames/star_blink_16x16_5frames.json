@@ -1,0 +1,39 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "estrela piscando, 5 frames, 16x16",
+    "category": "effect",
+    "asset_family": "effect",
+    "subject": "star",
+    "body_type": "effect",
+    "base_template": "glow",
+    "action": "blink",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "generator": "specific.star_blink",
+    "fallback": false,
+    "seed": 90549912134497,
+    "variant_id": null,
+    "quality_notes": "Generated with specific star_blink generator. Subject detected as star using glow template.",
+    "animation_style": "blink",
+    "frames": 5,
+    "size": [
+        16,
+        16
+    ],
+    "palette": [
+        "blue",
+        "cyan"
+    ],
+    "palette_key": "blue_neon",
+    "name": "star_blink_16x16_5frames",
+    "frame_files": [
+        "outputs\\star_blink_16x16_5frames\\frames\\frame_01.png",
+        "outputs\\star_blink_16x16_5frames\\frames\\frame_02.png",
+        "outputs\\star_blink_16x16_5frames\\frames\\frame_03.png",
+        "outputs\\star_blink_16x16_5frames\\frames\\frame_04.png",
+        "outputs\\star_blink_16x16_5frames\\frames\\frame_05.png"
+    ],
+    "spritesheet": "outputs\\star_blink_16x16_5frames\\star_blink_16x16_5frames_spritesheet.png",
+    "preview_gif": "outputs\\star_blink_16x16_5frames\\star_blink_16x16_5frames_preview.gif"
+}

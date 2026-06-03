@@ -1,0 +1,22 @@
+{
+    "spriteforge_version": "0.3",
+    "prompt": "floresta escura para jogo plataforma, 1 frame, 96x48",
+    "category": "background",
+    "subject": "background",
+    "action": "idle",
+    "features": [],
+    "frames": 1,
+    "size": [
+        96,
+        48
+    ],
+    "palette": "blue_neon",
+    "name": "background_idle_96x48_1frames",
+    "generator": "generic.background",
+    "fallback": true,
+    "frame_files": [
+        "outputs\\background_idle_96x48_1frames\\frames\\frame_01.png"
+    ],
+    "spritesheet": "outputs\\background_idle_96x48_1frames\\background_idle_96x48_1frames_spritesheet.png",
+    "preview_gif": "outputs\\background_idle_96x48_1frames\\background_idle_96x48_1frames_preview.gif"
+}

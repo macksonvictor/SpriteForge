@@ -1,0 +1,35 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "floresta escura para jogo plataforma, 1 frame, 96x48",
+    "category": "background",
+    "asset_family": "background",
+    "subject": "floresta",
+    "body_type": "background",
+    "base_template": "forest",
+    "action": "idle",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "generator": "generic.background",
+    "fallback": true,
+    "seed": 166111669711763,
+    "variant_id": null,
+    "quality_notes": "Generated with generic background fallback. Subject detected as floresta using forest template.",
+    "animation_style": "idle_bob",
+    "frames": 1,
+    "size": [
+        96,
+        48
+    ],
+    "palette": [
+        "green",
+        "dark"
+    ],
+    "palette_key": "green_neon",
+    "name": "floresta_idle_96x48_1frames",
+    "frame_files": [
+        "outputs\\floresta_idle_96x48_1frames\\frames\\frame_01.png"
+    ],
+    "spritesheet": "outputs\\floresta_idle_96x48_1frames\\floresta_idle_96x48_1frames_spritesheet.png",
+    "preview_gif": "outputs\\floresta_idle_96x48_1frames\\floresta_idle_96x48_1frames_preview.gif"
+}

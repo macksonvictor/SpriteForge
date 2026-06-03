@@ -1,0 +1,34 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "chao de grama para plataforma, 1 frame, 96x32",
+    "category": "background",
+    "asset_family": "background",
+    "subject": "chao",
+    "body_type": "background",
+    "base_template": "platformer_ground",
+    "action": "idle",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "generator": "generic.background",
+    "fallback": true,
+    "seed": 248637402274007,
+    "variant_id": null,
+    "quality_notes": "Generated with generic background fallback. Subject detected as chao using platformer_ground template.",
+    "animation_style": "idle_bob",
+    "frames": 1,
+    "size": [
+        96,
+        32
+    ],
+    "palette": [
+        "green"
+    ],
+    "palette_key": "green_neon",
+    "name": "chao_idle_96x32_1frames",
+    "frame_files": [
+        "outputs\\chao_idle_96x32_1frames\\frames\\frame_01.png"
+    ],
+    "spritesheet": "outputs\\chao_idle_96x32_1frames\\chao_idle_96x32_1frames_spritesheet.png",
+    "preview_gif": "outputs\\chao_idle_96x32_1frames\\chao_idle_96x32_1frames_preview.gif"
+}

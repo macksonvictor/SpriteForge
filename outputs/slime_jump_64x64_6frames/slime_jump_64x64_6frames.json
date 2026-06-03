@@ -1,0 +1,32 @@
+{
+    "spriteforge_version": "0.4",
+    "prompt": "slime verde pulando, 6 frames, 64x64, variacao 2, mais detalhado, estilo alternativo, variacao 2",
+    "subject": "slime",
+    "category": "character",
+    "action": "jump",
+    "features": [],
+    "generator": "specific.slime_jump",
+    "fallback": false,
+    "quality_notes": "Generated with specific slime_jump generator. Subject detected as slime.",
+    "body_type": "blob",
+    "accessories": [],
+    "element": "none",
+    "animation_style": "jump_arc",
+    "frames": 6,
+    "size": [
+        64,
+        64
+    ],
+    "palette": "green_neon",
+    "name": "slime_jump_64x64_6frames",
+    "frame_files": [
+        "outputs\\slime_jump_64x64_6frames\\frames\\frame_01.png",
+        "outputs\\slime_jump_64x64_6frames\\frames\\frame_02.png",
+        "outputs\\slime_jump_64x64_6frames\\frames\\frame_03.png",
+        "outputs\\slime_jump_64x64_6frames\\frames\\frame_04.png",
+        "outputs\\slime_jump_64x64_6frames\\frames\\frame_05.png",
+        "outputs\\slime_jump_64x64_6frames\\frames\\frame_06.png"
+    ],
+    "spritesheet": "outputs\\slime_jump_64x64_6frames\\slime_jump_64x64_6frames_spritesheet.png",
+    "preview_gif": "outputs\\slime_jump_64x64_6frames\\slime_jump_64x64_6frames_preview.gif"
+}

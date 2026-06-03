@@ -1,0 +1,54 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "pack explosao de fogo, 8 frames, 48x48",
+    "pack_name": "explosion_fire",
+    "category": "effect",
+    "asset_family": "effect",
+    "subject": "explosion",
+    "body_type": "effect",
+    "base_template": "explosion",
+    "features": [],
+    "accessories": [],
+    "element": "fire",
+    "seed": 243267563058271,
+    "variant_id": null,
+    "animations": [
+        {
+            "animation": "idle",
+            "asset": "explosion_fire_idle",
+            "generator": "generic.effect",
+            "output_dir": "outputs\\packs\\explosion_fire\\idle",
+            "spritesheet": "outputs\\packs\\explosion_fire\\idle\\explosion_fire_idle_spritesheet.png",
+            "preview_gif": "outputs\\packs\\explosion_fire\\idle\\explosion_fire_idle_preview.gif",
+            "metadata": "outputs\\packs\\explosion_fire\\idle\\explosion_fire_idle.json"
+        },
+        {
+            "animation": "walk",
+            "asset": "explosion_fire_walk",
+            "generator": "generic.effect",
+            "output_dir": "outputs\\packs\\explosion_fire\\walk",
+            "spritesheet": "outputs\\packs\\explosion_fire\\walk\\explosion_fire_walk_spritesheet.png",
+            "preview_gif": "outputs\\packs\\explosion_fire\\walk\\explosion_fire_walk_preview.gif",
+            "metadata": "outputs\\packs\\explosion_fire\\walk\\explosion_fire_walk.json"
+        },
+        {
+            "animation": "jump",
+            "asset": "explosion_fire_jump",
+            "generator": "generic.effect",
+            "output_dir": "outputs\\packs\\explosion_fire\\jump",
+            "spritesheet": "outputs\\packs\\explosion_fire\\jump\\explosion_fire_jump_spritesheet.png",
+            "preview_gif": "outputs\\packs\\explosion_fire\\jump\\explosion_fire_jump_preview.gif",
+            "metadata": "outputs\\packs\\explosion_fire\\jump\\explosion_fire_jump.json"
+        },
+        {
+            "animation": "attack",
+            "asset": "explosion_fire_attack",
+            "generator": "generic.effect",
+            "output_dir": "outputs\\packs\\explosion_fire\\attack",
+            "spritesheet": "outputs\\packs\\explosion_fire\\attack\\explosion_fire_attack_spritesheet.png",
+            "preview_gif": "outputs\\packs\\explosion_fire\\attack\\explosion_fire_attack_preview.gif",
+            "metadata": "outputs\\packs\\explosion_fire\\attack\\explosion_fire_attack.json"
+        }
+    ],
+    "quality_notes": "Generated character pack using explosion template with 4 animations."
+}

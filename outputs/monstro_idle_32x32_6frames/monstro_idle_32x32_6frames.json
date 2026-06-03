@@ -1,0 +1,41 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "monstro de pedra com olhos vermelhos, 6 frames, 32x32",
+    "category": "creature",
+    "asset_family": "creature",
+    "subject": "monstro",
+    "body_type": "stone_monster",
+    "base_template": "monster",
+    "action": "idle",
+    "features": [
+        "red_eyes"
+    ],
+    "accessories": [],
+    "element": "stone",
+    "generator": "generic.creature",
+    "fallback": true,
+    "seed": 139927028471849,
+    "variant_id": null,
+    "quality_notes": "Generated with generic creature fallback. Subject detected as monstro using monster template with features red_eyes; element stone.",
+    "animation_style": "idle_bob",
+    "frames": 6,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "gray"
+    ],
+    "palette_key": "stone",
+    "name": "monstro_idle_32x32_6frames",
+    "frame_files": [
+        "outputs\\monstro_idle_32x32_6frames\\frames\\frame_01.png",
+        "outputs\\monstro_idle_32x32_6frames\\frames\\frame_02.png",
+        "outputs\\monstro_idle_32x32_6frames\\frames\\frame_03.png",
+        "outputs\\monstro_idle_32x32_6frames\\frames\\frame_04.png",
+        "outputs\\monstro_idle_32x32_6frames\\frames\\frame_05.png",
+        "outputs\\monstro_idle_32x32_6frames\\frames\\frame_06.png"
+    ],
+    "spritesheet": "outputs\\monstro_idle_32x32_6frames\\monstro_idle_32x32_6frames_spritesheet.png",
+    "preview_gif": "outputs\\monstro_idle_32x32_6frames\\monstro_idle_32x32_6frames_preview.gif"
+}

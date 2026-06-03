@@ -1,0 +1,35 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "arvore pixel art, 1 frame, 32x32",
+    "category": "background",
+    "asset_family": "background",
+    "subject": "arvore",
+    "body_type": "background",
+    "base_template": "tree",
+    "action": "idle",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "generator": "generic.background",
+    "fallback": true,
+    "seed": 46345854083470,
+    "variant_id": null,
+    "quality_notes": "Generated with generic background fallback. Subject detected as arvore using tree template.",
+    "animation_style": "idle_bob",
+    "frames": 1,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "blue",
+        "cyan"
+    ],
+    "palette_key": "blue_neon",
+    "name": "arvore_idle_32x32_1frames",
+    "frame_files": [
+        "outputs\\arvore_idle_32x32_1frames\\frames\\frame_01.png"
+    ],
+    "spritesheet": "outputs\\arvore_idle_32x32_1frames\\arvore_idle_32x32_1frames_spritesheet.png",
+    "preview_gif": "outputs\\arvore_idle_32x32_1frames\\arvore_idle_32x32_1frames_preview.gif"
+}

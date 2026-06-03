@@ -1,0 +1,32 @@
+{
+    "spriteforge_version": "0.4",
+    "prompt": "avião",
+    "subject": "asset",
+    "category": "unknown",
+    "action": "idle",
+    "features": [],
+    "generator": "generic.creature",
+    "fallback": true,
+    "quality_notes": "Generated with generic creature fallback. Subject/category could not be identified confidently.",
+    "body_type": "humanoid",
+    "accessories": [],
+    "element": "none",
+    "animation_style": "idle_bob",
+    "frames": 6,
+    "size": [
+        32,
+        32
+    ],
+    "palette": "blue_neon",
+    "name": "asset_idle_32x32_6frames",
+    "frame_files": [
+        "outputs\\asset_idle_32x32_6frames\\frames\\frame_01.png",
+        "outputs\\asset_idle_32x32_6frames\\frames\\frame_02.png",
+        "outputs\\asset_idle_32x32_6frames\\frames\\frame_03.png",
+        "outputs\\asset_idle_32x32_6frames\\frames\\frame_04.png",
+        "outputs\\asset_idle_32x32_6frames\\frames\\frame_05.png",
+        "outputs\\asset_idle_32x32_6frames\\frames\\frame_06.png"
+    ],
+    "spritesheet": "outputs\\asset_idle_32x32_6frames\\asset_idle_32x32_6frames_spritesheet.png",
+    "preview_gif": "outputs\\asset_idle_32x32_6frames\\asset_idle_32x32_6frames_preview.gif"
+}

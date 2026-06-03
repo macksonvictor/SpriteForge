@@ -1,0 +1,41 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "pack slime verde pulando, 6 frames, 32x32",
+    "category": "character",
+    "asset_family": "creature",
+    "subject": "slime",
+    "body_type": "blob",
+    "base_template": "blob",
+    "action": "attack",
+    "features": [],
+    "accessories": [],
+    "element": "none",
+    "generator": "generic.creature",
+    "fallback": true,
+    "seed": 171536290737475,
+    "variant_id": null,
+    "quality_notes": "Generated with generic creature fallback. Subject detected as slime using blob template.",
+    "animation_style": "attack_swing",
+    "frames": 6,
+    "size": [
+        32,
+        32
+    ],
+    "palette": [
+        "green"
+    ],
+    "palette_key": "green_neon",
+    "name": "slime_attack",
+    "frame_files": [
+        "outputs\\packs\\slime\\attack\\frames\\frame_01.png",
+        "outputs\\packs\\slime\\attack\\frames\\frame_02.png",
+        "outputs\\packs\\slime\\attack\\frames\\frame_03.png",
+        "outputs\\packs\\slime\\attack\\frames\\frame_04.png",
+        "outputs\\packs\\slime\\attack\\frames\\frame_05.png",
+        "outputs\\packs\\slime\\attack\\frames\\frame_06.png"
+    ],
+    "spritesheet": "outputs\\packs\\slime\\attack\\slime_attack_spritesheet.png",
+    "preview_gif": "outputs\\packs\\slime\\attack\\slime_attack_preview.gif",
+    "pack_name": "slime",
+    "animation": "attack"
+}

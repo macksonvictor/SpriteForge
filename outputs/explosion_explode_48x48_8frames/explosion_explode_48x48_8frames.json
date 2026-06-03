@@ -1,0 +1,43 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "explosao de fogo, 8 frames, 48x48",
+    "category": "effect",
+    "asset_family": "effect",
+    "subject": "explosion",
+    "body_type": "effect",
+    "base_template": "explosion",
+    "action": "explode",
+    "features": [],
+    "accessories": [],
+    "element": "fire",
+    "generator": "specific.explosion_fire",
+    "fallback": false,
+    "seed": 243267563058271,
+    "variant_id": null,
+    "quality_notes": "Generated with specific explosion_fire generator. Subject detected as explosion using explosion template with element fire.",
+    "animation_style": "explosion",
+    "frames": 8,
+    "size": [
+        48,
+        48
+    ],
+    "palette": [
+        "orange",
+        "red",
+        "yellow"
+    ],
+    "palette_key": "fire",
+    "name": "explosion_explode_48x48_8frames",
+    "frame_files": [
+        "outputs\\explosion_explode_48x48_8frames\\frames\\frame_01.png",
+        "outputs\\explosion_explode_48x48_8frames\\frames\\frame_02.png",
+        "outputs\\explosion_explode_48x48_8frames\\frames\\frame_03.png",
+        "outputs\\explosion_explode_48x48_8frames\\frames\\frame_04.png",
+        "outputs\\explosion_explode_48x48_8frames\\frames\\frame_05.png",
+        "outputs\\explosion_explode_48x48_8frames\\frames\\frame_06.png",
+        "outputs\\explosion_explode_48x48_8frames\\frames\\frame_07.png",
+        "outputs\\explosion_explode_48x48_8frames\\frames\\frame_08.png"
+    ],
+    "spritesheet": "outputs\\explosion_explode_48x48_8frames\\explosion_explode_48x48_8frames_spritesheet.png",
+    "preview_gif": "outputs\\explosion_explode_48x48_8frames\\explosion_explode_48x48_8frames_preview.gif"
+}

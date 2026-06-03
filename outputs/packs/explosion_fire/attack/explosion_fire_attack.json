@@ -1,0 +1,43 @@
+{
+    "spriteforge_version": "0.7",
+    "prompt": "pack explosao de fogo, 8 frames, 48x48",
+    "category": "effect",
+    "asset_family": "effect",
+    "subject": "explosion",
+    "body_type": "effect",
+    "base_template": "explosion",
+    "action": "attack",
+    "features": [],
+    "accessories": [],
+    "element": "fire",
+    "generator": "generic.effect",
+    "fallback": true,
+    "seed": 243267563058275,
+    "variant_id": null,
+    "quality_notes": "Generated with generic effect fallback. Subject detected as explosion using explosion template with element fire.",
+    "animation_style": "attack_swing",
+    "frames": 6,
+    "size": [
+        48,
+        48
+    ],
+    "palette": [
+        "orange",
+        "red",
+        "yellow"
+    ],
+    "palette_key": "fire",
+    "name": "explosion_fire_attack",
+    "frame_files": [
+        "outputs\\packs\\explosion_fire\\attack\\frames\\frame_01.png",
+        "outputs\\packs\\explosion_fire\\attack\\frames\\frame_02.png",
+        "outputs\\packs\\explosion_fire\\attack\\frames\\frame_03.png",
+        "outputs\\packs\\explosion_fire\\attack\\frames\\frame_04.png",
+        "outputs\\packs\\explosion_fire\\attack\\frames\\frame_05.png",
+        "outputs\\packs\\explosion_fire\\attack\\frames\\frame_06.png"
+    ],
+    "spritesheet": "outputs\\packs\\explosion_fire\\attack\\explosion_fire_attack_spritesheet.png",
+    "preview_gif": "outputs\\packs\\explosion_fire\\attack\\explosion_fire_attack_preview.gif",
+    "pack_name": "explosion_fire",
+    "animation": "attack"
+}
