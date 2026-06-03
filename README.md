@@ -1,6 +1,4 @@
- cd "C:\END0-SYM\project\spriteforge project"
 
-@'
 <p align="center">
   <img src="assets/brand/logo_spriteforge.png" alt="SpriteForge" width="720">
 </p>
